@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: #892CDC; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#cafe{
+    width: 100%;
+    height: auto;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.texto-sobreposto{
+    position: absolute;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;         
+}            
+
+.container img{
+    width: 100%;
+    height: 45em;
+    animation: go-back 1s;
+
+}
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+  
+
+#texto-lounge{
+    color: #892CDC;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: justify;
+    margin-left: 2em;
+    animation: go-back 1s;
+}
+
+#pcs,#comidas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-serviço{
+    position: absolute;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;         
+}        
+
+
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+#conteudo-footer{
+
+    color: #892CDC;
+}
+
+#instagram,#twitter,#whatsapp{
+    margin-left: 10px;
+    margin: 1px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#copyright{
+    color: #892CDC;
+    margin-top: 10px;
+}
